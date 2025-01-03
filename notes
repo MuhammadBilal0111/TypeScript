@@ -1,0 +1,25 @@
+// TypeScript is all about the type Safety
+i.e. 2+"2"='22' because in javascript type safety is missing
+i.e. null+2=2
+i.e. undefined+2=NaN(Not a number)
+TypeScript just stop this behaviour
+
+What TypeScript does:
+The only job of TypeScript is static checking
+static checking: The process of constantly checking the code by the IDE.
+Static checking is not in the case of Javascript
+
+when you write Ts code the Ts code transpile in Javascript
+
+It is a development tool which provide you a way to write better code with less problems with a more maintainable and maintainable
+
+
+const user = {name:"bilal",email:"m.bilal0111@gmail.com"}
+console.log(user.password); // TypeScript tells that the password is missing
+
+TypeScript Stored as a dev dependency -> npm i typescript --save-dev
+
+installation: npm i -g typescript
+tsc .\intro.ts
+
+let <variableName>:type=value; all datatypes are in lower case
